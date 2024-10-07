@@ -2,6 +2,11 @@
 
 I wanted a way to monitory nproc usage for MySQL on Linux using Go and eBPF.
 
+## Warning
+
+This is a work in progress and not ready for production use. I am still learning Go and eBPF.
+This is currently just a proof of concept and I am testing it.
+
 ## To Compile
 
 ```GO
