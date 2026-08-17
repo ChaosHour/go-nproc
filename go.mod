@@ -1,9 +1,7 @@
 module github.com/ChaosHour/go-nproc
 
-go 1.22.5
+go 1.25.0
 
-require (
-	github.com/cilium/ebpf v0.16.0 // indirect
-	golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2 // indirect
-	golang.org/x/sys v0.20.0 // indirect
-)
+require github.com/cilium/ebpf v0.22.0
+
+require golang.org/x/sys v0.43.0 // indirect
